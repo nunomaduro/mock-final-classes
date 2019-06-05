@@ -32,7 +32,7 @@ composer require --dev nunomaduro/mock-final-classes
 
 ## 👏🏻 Credits
 
-Most of the work is done by the package [dg/bypass-finals](https://github.com/dg/bypass-finals), make sure you support the maintainer here: [Donation to the maintainer of bypass-finals](https://nette.org/make-donation?to=bypass-finals).
+Most of the work is done by the library [dg/bypass-finals](https://github.com/dg/bypass-finals), so make sure you support the maintainer here: [Donate](https://nette.org/make-donation?to=bypass-finals). Thank you!
 
 ---
 
