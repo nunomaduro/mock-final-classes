@@ -30,6 +30,10 @@ composer require --dev nunomaduro/mock-final-classes
 1. First, we run the file [autoload.php](https://github.com/nunomaduro/mock-final-classes/blob/master/autoload.php) using [Composer Autoload](https://github.com/nunomaduro/mock-final-classes/blob/8628de25120b6106421d7730457c45ac668ecef9/composer.json#L35).
 2. Then, if you are running the command [PHPUnit](https://github.com/nunomaduro/mock-final-classes/blob/master/src/Frameworks/PhpUnit.php), we use the library [dg/bypass-finals](https://github.com/dg/bypass-finals) to remove final keywords from source code on-the-fly: [https://github.com/nunomaduro/mock-final-classes/src/Runner.php#L31](https://github.com/nunomaduro/mock-final-classes/blob/8628de25120b6106421d7730457c45ac668ecef9/src/Runner.php#L31).
 
+## 👏🏻 Credits
+
+Most of the work is done by the package [dg/bypass-finals](https://github.com/dg/bypass-finals), make sure you support the maintainer here: [Donation to the maintainer of bypass-finals](https://nette.org/make-donation?to=bypass-finals).
+
 ---
 
 Mock Final Classes is an open-sourced software licensed under the [MIT license](LICENSE.md).
