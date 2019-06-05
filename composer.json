@@ -1,0 +1,41 @@
+{
+    "name": "nunomaduro/mock-final-classes",
+    "description": "Mock classes final just like normal",
+    "keywords": ["php", "mock", "phpunit", "final", "class", "classes"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Maduro",
+            "email": "enunomaduro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "dg/bypass-finals": "^1.1"
+    },
+    "require-dev": {
+        "localheinz/phpstan-rules": "^0.10.0",
+        "nunomaduro/phpinsights": "^1.6",
+        "phpstan/phpstan": "^0.11.8",
+        "phpstan/phpstan-strict-rules": "^0.11.1",
+        "phpunit/phpunit": "^8.1.6",
+        "thecodingmachine/phpstan-strict-rules": "^0.11.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "NunoMaduro\\MockFinalClasses\\": "src/"
+        },
+        "files": ["autoload.php"]
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
