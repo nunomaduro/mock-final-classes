@@ -1,6 +1,6 @@
 {
     "name": "nunomaduro/mock-final-classes",
-    "description": "Mock classes final just like normal",
+    "description": "Allows mocking of final methods and classes in PHP.",
     "keywords": ["php", "mock", "phpunit", "final", "class", "classes"],
     "license": "MIT",
     "authors": [
