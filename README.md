@@ -9,7 +9,9 @@
   <a href="https://packagist.org/packages/nunomaduro/mock-final-classes"><img src="https://poser.pugx.org/nunomaduro/mock-final-classes/license.svg" alt="License"></a>
 </p>
 
-<center>Created by, and is maintained by **[Nuno Maduro](https://github.com/nunomaduro)**, and once installed it automatically **allows mocking of final methods and classes**.</center>
+<p align="center">
+	Created by, and is maintained by <strong><a href="https://twitter.com/enunomaduro">Nuno Maduro</a></strong>, and once installed it automatically <strong>allows mocking of final methods and classes</strong>.
+</p>
 
 ## 💡 Installation & Usage
 
@@ -25,7 +27,7 @@ composer require --dev nunomaduro/mock-final-classes
 
 ## 👏🏻 Credits
 
-Behind the scenes, we use the library [https://github.com/dg/bypass-finals)[https://github.com/dg/bypass-finals] to remove final keywords from source code on-the-fly.
+Behind the scenes, we use the library [dg/bypass-finals)[https://github.com/dg/bypass-finals] to remove final keywords from source code on-the-fly.
 
 
 Mock Final Classes is an open-sourced software licensed under the [MIT license](LICENSE.md).
