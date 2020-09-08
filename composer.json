@@ -10,14 +10,14 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1 || ^8.0",
         "dg/bypass-finals": "^1.1"
     },
     "require-dev": {
         "localheinz/phpstan-rules": "^0.10.0",
         "phpstan/phpstan": "^0.11.8",
         "phpstan/phpstan-strict-rules": "^0.11.1",
-        "phpunit/phpunit": "^7.0|^8.0",
+        "phpunit/phpunit": "^7.0|^8.0|^9.3",
         "thecodingmachine/phpstan-strict-rules": "^0.11.1"
     },
     "autoload-dev": {
