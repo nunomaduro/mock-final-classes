@@ -9,9 +9,8 @@ jobs:
       fail-fast: true
       matrix:
         php: [7.3, 7.4, 8.0]
-        dependency-version: [prefer-lowest, prefer-stable]
 
-    name: PHP ${{ matrix.php }} ${{ matrix.dependency-version }}
+    name: PHP ${{ matrix.php }}
 
     steps:
     - name: Checkout
@@ -29,13 +28,12 @@ jobs:
         echo "::add-matcher::${{ runner.tool_cache }}/php.json"
         echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
 
-
     - name: Install PHP 7 dependencies
-      run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist --no-progress
+      run: composer update --no-interaction --prefer-dist --no-progress
       if: "matrix.php < 8"
 
     - name: Install PHP 8 dependencies
-      run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist --no-progress --ignore-platform-req=php
+      run: composer update --no-interaction --prefer-dist --no-progress --ignore-platform-req=php
       if: "matrix.php >= 8"
 
     - name: Run Unit Tests
