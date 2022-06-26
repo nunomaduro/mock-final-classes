@@ -18,6 +18,7 @@ final class Runner
      */
     private static $frameworks = [
         Frameworks\PhpUnit::class,
+        Frameworks\Pest::class,
     ];
 
     /**
