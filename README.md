@@ -28,7 +28,11 @@ composer require --dev nunomaduro/mock-final-classes
 ## 🤯 How it works?
 
 1. First, we run the file [autoload.php](https://github.com/nunomaduro/mock-final-classes/blob/master/autoload.php) using [Composer Autoload](https://github.com/nunomaduro/mock-final-classes/blob/8628de25120b6106421d7730457c45ac668ecef9/composer.json#L35).
-2. Then, if you are running the command [PHPUnit](https://github.com/nunomaduro/mock-final-classes/blob/master/src/Frameworks/PhpUnit.php), we use the library [dg/bypass-finals](https://github.com/dg/bypass-finals) to remove final keywords from source code on-the-fly: [https://github.com/nunomaduro/mock-final-classes/src/Runner.php#L31](https://github.com/nunomaduro/mock-final-classes/blob/8628de25120b6106421d7730457c45ac668ecef9/src/Runner.php#L31).
+2. Then, we determine if you are running a supported test framework
+   - [ParaTest](https://github.com/nunomaduro/mock-final-classes/blob/master/src/Frameworks/ParaTest.php)
+   - [Pest](https://github.com/nunomaduro/mock-final-classes/blob/master/src/Frameworks/Pest.php)
+   - [PHPUnit](https://github.com/nunomaduro/mock-final-classes/blob/master/src/Frameworks/PhpUnit.php)
+3. Then, we use the library [dg/bypass-finals](https://github.com/dg/bypass-finals) to remove final keywords from source code on-the-fly: [https://github.com/nunomaduro/mock-final-classes/src/Runner.php#L31](https://github.com/nunomaduro/mock-final-classes/blob/8628de25120b6106421d7730457c45ac668ecef9/src/Runner.php#L31).
 
 ## 👏🏻 Credits
 
