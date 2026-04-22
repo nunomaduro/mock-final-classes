@@ -4,10 +4,10 @@
 
 <p align="center">
   <a href="https://travis-ci.org/nunomaduro/mock-final-classes"><img src="https://img.shields.io/travis/nunomaduro/mock-final-classes/master.svg" alt="Build Status"></img></a>
-  <a href="https://youtube.com/@nunomaduro?sub_confirmation=1"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCO_hYZF2gb_CyG5sA7ArlGg?style=flat&label=youtube&color=brightgreen"></a>
   <a href="https://packagist.org/packages/nunomaduro/mock-final-classes"><img src="https://poser.pugx.org/nunomaduro/mock-final-classes/d/total.svg" alt="Total Downloads"></a>
   <a href="https://packagist.org/packages/nunomaduro/mock-final-classes"><img src="https://poser.pugx.org/nunomaduro/mock-final-classes/v/stable.svg" alt="Latest Version"></a>
   <a href="https://packagist.org/packages/nunomaduro/mock-final-classes"><img src="https://poser.pugx.org/nunomaduro/mock-final-classes/license.svg" alt="License"></a>
+  <a href="https://youtube.com/@nunomaduro?sub_confirmation=1"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCO_hYZF2gb_CyG5sA7ArlGg?style=flat&label=youtube&color=brightgreen"></a>
 </p>
 
 <p align="center">
